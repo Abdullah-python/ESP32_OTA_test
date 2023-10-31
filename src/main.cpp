@@ -9,7 +9,7 @@ const char * password = "0bl1v10n@^)";
 
 String FirmwareVer = {"3.0"};
 #define URL_fw_Version "https://github.com/Abdullah-python/ESP32_OTA_test/blob/master/firmware_version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/.pio/build/esp32doit-devkit-v1/firmware.bin"
+#define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/fw/firmware.bin"
 //hh
 //https://raw.githubusercontent.com/khirds/powertalkz/main/fw.bin
 
