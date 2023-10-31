@@ -7,7 +7,7 @@
 const char * ssid = "EGNION";
 const char * password = "0bl1v10n@^)";
 
-String FirmwareVer = {"4.0"};
+String FirmwareVer = {"5.0"};
 #define URL_fw_Version "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/main/firmware_version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/main/fw/firmware.bin"
 //hhhttps://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/main/fw/firmware.bin
@@ -90,9 +90,9 @@ void loop() {
     button_boot.pressed = false;
   }
   digitalWrite(2, HIGH);
-  delay(100);
+  delay(1000);
   digitalWrite(2, LOW);
-  delay(100);
+  delay(1000);
   repeatedCall();
 }
 
