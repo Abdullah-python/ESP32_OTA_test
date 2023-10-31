@@ -8,9 +8,9 @@ const char * ssid = "EGNION";
 const char * password = "0bl1v10n@^)";
 
 String FirmwareVer = {"3.0"};
-#define URL_fw_Version "https://github.com/Abdullah-python/ESP32_OTA_test/blob/master/firmware_version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/fw/firmware.bin"
-//hh
+#define URL_fw_Version "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/main/firmware_version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/main/fw/firmware.bin"
+//hhhttps://raw.githubusercontent.com/Abdullah-python/ESP32_OTA_test/main/fw/firmware.bin
 //https://raw.githubusercontent.com/khirds/powertalkz/main/fw.bin
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
